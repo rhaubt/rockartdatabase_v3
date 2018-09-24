@@ -1,2 +1,19 @@
 # rockartdatabase_v3
 the global rock art database version 3
+
+PROJECT DESCRIPTION
+_________________________________________
+
+
+DOCUMENTATION
+_________________________________________
+
+
+
+CONTRIBUTORS
+_________________________________________
+
+
+LICENSE
+_________________________________________
+
