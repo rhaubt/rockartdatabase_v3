@@ -9,6 +9,11 @@ This projects main goal is a complete redesign of the Rock Art Database website 
 
 The team will create a modern design for the site including a new logo design for the brand.
 
+A complete timeline of our progress can be found on our online Gantt chart
+
+Recent snapshots will be updated weekly and found here
+
+https://instagantt.com/shared/s/854237321341041/latest
 _________________________________________
 
 DOCUMENTATION
