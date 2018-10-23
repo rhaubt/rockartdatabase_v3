@@ -1,3 +1,5 @@
+For Jack and Gary
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -62,3 +64,12 @@
 </div>
 </body>
 </html>
+
+
+
+
+css
+
+.column {
+    width: 33%;
+}
