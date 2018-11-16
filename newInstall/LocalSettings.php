@@ -20,14 +20,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 # $wgDisableOutputCompression = true;
 
 $wgSitename = "The Rock Art Database";
-$wgMetaNamespace = "The Rock Art Database";
+$wgMetaNamespace = "The_Rock_Art_Database";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
 ## For more information on customizing the URLs
 ## (like /w/index.php/Page_title to /wiki/Page_title) please see:
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
-$wgScriptPath = "/mediawiki-1.31.1";
+$wgScriptPath = "/GitHub/rockartdatabase_v3/newInstall";
 
 ## The protocol and server name to use in fully-qualified URLs
 $wgServer = "http://localhost";
@@ -95,14 +95,14 @@ $wgShellLocale = "C.UTF-8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "en-gb";
 
-$wgSecretKey = "bbe0496eab1e36b9903bf09bf6b760d8d898c67112aba13185c3aff2d6424c58";
+$wgSecretKey = "f3782d326594977b8eea789696ba05287f86ed5dd21f89b423046f503a598a06";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "faeda5c9f33b5c3f";
+$wgUpgradeKey = "699265013155e5c4";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
@@ -117,27 +117,41 @@ $wgDiff3 = "";
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
+$wgDefaultSkin = "tweeki";
 
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Timeless' );
+wfLoadSkin( 'Tweeki' );
 wfLoadSkin( 'Vector' );
 
-#Skin Tweeki
-wfLoadSkin( 'Tweeki' );
-$wgDefaultSkin = 'Tweeki';
 
 # End of automatically generated settings.
 # Add more configuration options below.
 
-#extension Parser
-wfLoadExtension( 'ParserFunctions' ); 
-
-#extension Scribunto 
+wfLoadExtension( 'Capiunto' );
+wfLoadExtension( 'CategoryTree' );
+wfLoadExtension( 'Cite' );
+wfLoadExtension( 'CiteThisPage' );
+wfLoadExtension( 'CodeEditor' );
+wfLoadExtension( 'ConfirmEdit' );
+wfLoadExtension( 'Gadgets' );
+wfLoadExtension( 'ImageMap' );
+wfLoadExtension( 'InputBox' );
+wfLoadExtension( 'Interwiki' );
+wfLoadExtension( 'LocalisationUpdate' );
+wfLoadExtension( 'MultimediaViewer' );
+wfLoadExtension( 'Nuke' );
+wfLoadExtension( 'OATHAuth' );
+wfLoadExtension( 'ParserFunctions' );
+wfLoadExtension( 'PdfHandler' );
+wfLoadExtension( 'Poem' );
+wfLoadExtension( 'Renameuser' );
+wfLoadExtension( 'ReplaceText' );
 wfLoadExtension( 'Scribunto' );
-$wgScribuntoDefaultEngine = 'luastandalone';
-
-# Extension Capiunto 
-require_once "$IP/extensions/Capiunto/Capiunto.php";
+wfLoadExtension( 'SpamBlacklist' );
+wfLoadExtension( 'SyntaxHighlight_GeSHi' );
+wfLoadExtension( 'TitleBlacklist' );
+wfLoadExtension( 'WikiEditor' );
 

@@ -129,31 +129,8 @@ wfLoadSkin( 'Vector' );
 # End of automatically generated settings.
 # Add more configuration options below.
 
-wfLoadExtension( 'Capiunto' );
-wfLoadExtension( 'CategoryTree' );
-wfLoadExtension( 'Cite' );
-wfLoadExtension( 'CiteThisPage' );
-wfLoadExtension( 'CodeEditor' );
-wfLoadExtension( 'ConfirmEdit' );
-wfLoadExtension( 'Gadgets' );
-wfLoadExtension( 'ImageMap' );
-wfLoadExtension( 'InputBox' );
-wfLoadExtension( 'Interwiki' );
-wfLoadExtension( 'LocalisationUpdate' );
-wfLoadExtension( 'MultimediaViewer' );
-wfLoadExtension( 'Nuke' );
-wfLoadExtension( 'OATHAuth' );
-wfLoadExtension( 'ParserFunctions' );
-wfLoadExtension( 'PdfHandler' );
-wfLoadExtension( 'Poem' );
-wfLoadExtension( 'Renameuser' );
-wfLoadExtension( 'ReplaceText' );
-wfLoadExtension( 'Scribunto' );
-wfLoadExtension( 'SpamBlacklist' );
-wfLoadExtension( 'SyntaxHighlight_GeSHi' );
-wfLoadExtension( 'TitleBlacklist' );
-require_once "$IP/extensions/Wikibase/Wikibase.php";
-wfLoadExtension( 'WikiEditor' );
+
+
 
 
 
