@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArmenBakkalian",
+			"Rajemian"
+		]
+	},
+	"wikibase-edit": "Խմբագրել",
+	"wikibase-add": "աւելցնել",
+	"wikibase-label-empty": "Պիտակ նշուած չէ",
+	"wikibase-description-empty": "Նկարագրութիւնը սահմանուած չէ",
+	"wikibase-sitelinks-special": "Այլ կայքեր",
+	"wikibase-statementview-rank-normal": "Բնական կարգաստիճան"
+}
