@@ -117,27 +117,43 @@ $wgDiff3 = "";
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
+$wgDefaultSkin = "tweeki";
 
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Timeless' );
-wfLoadSkin( 'Vector' );
-
-#Skin Tweeki
 wfLoadSkin( 'Tweeki' );
-$wgDefaultSkin = 'Tweeki';
+wfLoadSkin( 'Vector' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
 
-#extension Parser
-wfLoadExtension( 'ParserFunctions' ); 
-
-#extension Scribunto 
+wfLoadExtension( 'Capiunto' );
+wfLoadExtension( 'CategoryTree' );
+wfLoadExtension( 'Cite' );
+wfLoadExtension( 'CiteThisPage' );
+wfLoadExtension( 'CodeEditor' );
+wfLoadExtension( 'ConfirmEdit' );
+wfLoadExtension( 'Gadgets' );
+wfLoadExtension( 'ImageMap' );
+wfLoadExtension( 'InputBox' );
+wfLoadExtension( 'Interwiki' );
+wfLoadExtension( 'LocalisationUpdate' );
+wfLoadExtension( 'MultimediaViewer' );
+wfLoadExtension( 'Nuke' );
+wfLoadExtension( 'OATHAuth' );
+wfLoadExtension( 'ParserFunctions' );
+wfLoadExtension( 'PdfHandler' );
+wfLoadExtension( 'Poem' );
+wfLoadExtension( 'Renameuser' );
+wfLoadExtension( 'ReplaceText' );
 wfLoadExtension( 'Scribunto' );
-$wgScribuntoDefaultEngine = 'luastandalone';
+wfLoadExtension( 'SpamBlacklist' );
+wfLoadExtension( 'SyntaxHighlight_GeSHi' );
+wfLoadExtension( 'TitleBlacklist' );
+require_once "$IP/extensions/Wikibase/Wikibase.php";
+wfLoadExtension( 'WikiEditor' );
 
-# Extension Capiunto 
-require_once "$IP/extensions/Capiunto/Capiunto.php";
+
 
