@@ -19,18 +19,17 @@
 ----
 <h2>Map</h2>
 
-<table style="border: 1px solid black;">
+<table style="border: 1px solid black; text-align: center;">
   <tr style="">
-    <th>NAME</th>
+    <td style="padding: 5px;">{NAME}</td>
   </tr>
   <tr>
-    <td>LOCATION</td>
+    <td style="padding: 5px;">{LOCATION}</td>
   </tr>
   <tr>
-    <td>AGE</td>
+    <td style="padding: 5px;">{AGE}</td>
   </tr>
   <tr>
-    <td>PRESERVATION</td>
+    <td style="padding: 5px;">{PRESERVATION}</td>
   </tr>
 </table>
-
