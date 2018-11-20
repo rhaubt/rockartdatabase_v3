@@ -9,7 +9,7 @@
   }
 
   .welcome {
-    padding: 100px 0px;
+    padding: 100px 200px;
     background-color: white;
     color: black;
     text-align: center;
@@ -21,7 +21,7 @@
     background-color: #e3e3e3;
   }
 
-  .stats {
+  .who {
     padding: 100px 0px;
     background-color: #c8c8c8;
   }
@@ -49,9 +49,37 @@
     color: grey;
   }
 
+  #text {
+    font-size: 14px;
+    line-height: 26px;
+    color: black;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+  }
+
   #page-header {
     background: #ededed;
     margin-top: -10px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin: 0 10px;
+    height: 200px;
+    background-color: #ccc;
+  }
+
+  .row {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }}
 
@@ -67,9 +95,25 @@
 <div class=articles> <!-- Recent Articles -->
   <h3 id=header>Recent Articles</h3>
   <h4 id=sub>News on the latest Rock Art</h4>
+
+  <div class="row">
+    <div class="column">
+      <h4>Australian Cave</h4>
+      <p id=text>Some text..</p>
+    </div>
+    <div class="column">
+      <h4>French Hill</h4>
+      <p id=text>Some text..</p>
+    </div>
+    <div class="column">
+      <h4>Canadian Mine</h4>
+      <p id=text>Some text..</p>
+    </div>
+  </div>
 </div>
 
-<div class=stats> <!-- Website Statistics -->
-  <h3 id=header>Rock-Art Database</h3>
-  <h4 id=sub>Interesting statistics from our database</h4>
+<div class=who> <!-- What is RAD -->
+  <h3 id=header>What is the Rock Art Database?</h3>
+  <h4 id=sub>Learn more about this website and its capabilities.</h4>
+  <p id=text>(explanation about what users can do on this site).</p>
 </div>
