@@ -1,0 +1,35 @@
+'''ProfilePageV2'''
+
+{{ProfliePageV2|UserName='''''Peter'''''|Profession=Web Design|Education=SAE |Website=<u>URL</u>|}}
+
+
+----
+
+----
+
+----
+
+
+
+
+
+
+'''ProfilePage'''
+
+{{ProfliePage|UserName=Peter|UserBio=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur mattis auctor. Nam lorem nisi, gravida placerat ipsum et, posuere fermentum risus.|Website:www.URL.com|RockOne=Lorem ipsum dolor sit amet, consectetur adipiscing elit.|RockTwo=Lorem ipsum dolor sit amet, consectetur adipiscing elit.|RockThree=Lorem ipsum dolor sit amet, consectetur adipiscing elit.|}}
+
+
+
+----
+
+----
+
+----
+
+
+
+
+
+'''CompanyPage'''
+
+{{CompanyProfile|CompanyMission=rockArt123123123|Website=www.URLURL.com|LinkedIn=LinkedinLink|Twitter=CompanyTwitterLink|Facebook=CompanyFacebookLink|CompanyPageAdmin=Peter|RockOne=Lorem ipsum dolor sit amet, consectetur adipiscing elit.|RockTwo=Lorem ipsum dolor sit amet, consectetur adipiscing elit.|RockThree=Lorem ipsum dolor sit amet, consectetur adipiscing elit.|}}
