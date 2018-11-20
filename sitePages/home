@@ -1,1 +1,75 @@
+{{#css:
+  body {
+    background: #f7f7f7;
+    color: white;
+  }
 
+  h1 {
+    display: none;
+  }
+
+  .welcome {
+    padding: 100px 0px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+  }
+
+  .articles {
+    padding: 100px 0px;
+    background-color: #e3e3e3;
+  }
+
+  .stats {
+    padding: 100px 0px;
+    background-color: #c8c8c8;
+  }
+
+  #title {
+    font-size: 36px;
+  }
+
+  #sub-title {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #header {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: black;
+  }
+
+  #sub {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+  }
+
+  #page-header {
+    background: #ededed;
+    margin-top: -10px;
+  }
+}}
+
+<div class=banner> <!-- Banner Image (not working) -->
+  <div class=welcome> <!-- Welcome Message -->
+
+    <h2 id=title>The Global Rock Art Database<h2>
+
+    <p id=sub-title>The world's first global rock-art database showcasing 250 projects, sites and other resources from the Americas, Europe, Africa, Asia and Oceania. From Sulaswesi's 39,900-year-old hand stencil to Indigenous Australian contact art. Your place for rock-art information.</p>
+  </div>
+</div>
+
+<div class=articles> <!-- Recent Articles -->
+  <h3 id=header>Recent Articles</h3>
+  <h4 id=sub>News on the latest Rock Art</h4>
+</div>
+
+<div class=stats> <!-- Website Statistics -->
+  <h3 id=header>Rock-Art Database</h3>
+  <h4 id=sub>Interesting statistics from our database</h4>
+</div>
