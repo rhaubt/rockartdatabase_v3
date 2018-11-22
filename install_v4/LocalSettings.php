@@ -39,6 +39,10 @@ $wgResourceBasePath = $wgScriptPath;
 ## or else you'll overwrite your logo when you upgrade!
 $wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 
+## The URL path to the logo.  Make sure you change this from the default,
+## or else you'll overwrite your logo when you upgrade!
+$wgLogo = "$wgResourceBasePath/resources/assets/wiki.png"; // does this need to be here?
+
 ## UPO means: this is also a user preference option
 
 $wgEnableEmail = true;
@@ -70,7 +74,7 @@ $wgMemCachedServers = [];
 
 ## To enable image uploads, make sure the 'images' directory
 ## is writable, then set this to true:
-$wgEnableUploads = false;
+$wgEnableUploads = true;
 #$wgUseImageMagick = true;
 #$wgImageMagickConvertCommand = "/usr/bin/convert";
 
@@ -95,14 +99,14 @@ $wgShellLocale = "C.UTF-8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "en-gb";
 
-$wgSecretKey = "9824e1392b1836cbd0036183995341e6b89e14853c12c1aa41cd9f1d2e02824c";
+// $wgSecretKey = "9824e1392b1836cbd0036183995341e6b89e14853c12c1aa41cd9f1d2e02824c";
 
-# Changing this will log out all existing sessions.
-$wgAuthenticationTokenVersion = "1";
+// # Changing this will log out all existing sessions.
+// $wgAuthenticationTokenVersion = "1";
 
-# Site upgrade key. Must be set to a string (default provided) to turn on the
-# web installer while LocalSettings.php is in place
-$wgUpgradeKey = "314cce19eb5687f1";
+// # Site upgrade key. Must be set to a string (default provided) to turn on the
+// # web installer while LocalSettings.php is in place
+// $wgUpgradeKey = "314cce19eb5687f1";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
@@ -117,16 +121,89 @@ $wgDiff3 = "";
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
-$wgDefaultSkin = "vector";
+$wgDefaultSkin = "tweeki";
 
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Timeless' );
-wfLoadSkin( 'Tweeki' );
 wfLoadSkin( 'Vector' );
 
 
 # End of automatically generated settings.
 # Add more configuration options below.
 
+# Custom SKin: Tweeki - Bootstrap Layout
+wfLoadSkin( 'Tweeki' );
+
+# Extension: Capiunto to create Infobox
+wfLoadExtension( 'Capiunto' );
+
+# Extension: Parser Functions
+wfLoadExtension( 'ParserFunctions' );
+
+# Extension: Scribunto
+wfLoadExtension( 'Scribunto' );
+
+# Extension: YouTube Embedding
+wfLoadExtension( 'YouTube' );
+
+
+# MediaWiki Standard Extensions----------------------------
+wfLoadExtension( 'CategoryTree' );
+wfLoadExtension( 'Cite' );
+wfLoadExtension( 'CiteThisPage' );
+// wfLoadExtension( 'CodeEditor' ); BROKEN INSTALL, NO UPDATES
+wfLoadExtension( 'ConfirmEdit' );
+wfLoadExtension( 'Gadgets' );
+wfLoadExtension( 'ImageMap' );
+wfLoadExtension( 'InputBox' );
+wfLoadExtension( 'Interwiki' );
+wfLoadExtension( 'LocalisationUpdate' );
+wfLoadExtension( 'MultimediaViewer' );
+wfLoadExtension( 'Nuke' );
+// wfLoadExtension( 'OATHAuth' ); DATABASE ERROR
+wfLoadExtension( 'PdfHandler' );
+wfLoadExtension( 'Poem' );
+wfLoadExtension( 'Renameuser' );
+wfLoadExtension( 'ReplaceText' );
+wfLoadExtension( 'SpamBlacklist' );
+wfLoadExtension( 'SyntaxHighlight_GeSHi' );
+wfLoadExtension( 'TitleBlacklist' );
+wfLoadExtension( 'WikiEditor' );
+# ----------------------------------------------------------
+
+
+// # Extension: SemanticMediaWiki
+// require_once "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php";
+// enableSemantics( 'yourdomain.com/wiki' );
+
+
+// # Extension: SemanticMediaWiki and RDFIO
+// $smwgShowFactbox = SMW_FACTBOX_NONEMPTY;
+// $smwgOWLFullExport = true;
+
+
+// # Extension: YouTube
+// wfLoadExtension( 'YouTube' );
+
+// # Extension: iDisplay
+// require_once "$IP/extensions/iDisplay/iDisplay.php";
+
+
+# Disable anonymous editing
+$wgGroupPermissions['*']['edit'] = false;
+
+
+# Prevent new user registrations except by sysops
+$wgGroupPermissions['*']['createaccount'] = false;
+
+
+# Use own Logo
+// $wgLogo = $wgScriptPath . '/img/wiki_logo.png'; THIS CODE CASUSES AN ERROR MESSAGE
+		// Warning: OutputPage::transformFilePath: Failed to hash C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall/img/wiki_logo.png [Called from OutputPage::transformFilePath in C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\OutputPage.php at line 3742] in C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\debug\MWDebug.php on line 309
+
+# Maps Extension - Code changed in composer.json
+// wfLoadExtension( 'Maps' );
+# When active, generates error:
+		// Fatal error: Uncaught Exception: C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall/extensions/Maps/extension.json does not exist! in C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\registration\ExtensionRegistry.php:107 Stack trace: #0 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\GlobalFunctions.php(50): ExtensionRegistry->queue('C:\\xampp\\htdocs...') #1 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\LocalSettings.php(197): wfLoadExtension('Maps') #2 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\Setup.php(94): require_once('C:\\xampp\\htdocs...') #3 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\WebStart.php(88): require_once('C:\\xampp\\htdocs...') #4 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\index.php(39): require('C:\\xampp\\htdocs...') #5 {main} thrown in C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\registration\ExtensionRegistry.php on line 107
