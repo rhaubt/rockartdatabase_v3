@@ -176,7 +176,9 @@ wfLoadExtension( 'WikiEditor' );
 
 // # Extension: SemanticMediaWiki
 // require_once "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php";
-// enableSemantics( 'yourdomain.com/wiki' );
+// // enableSemantics( 'example.org' );
+// enableSemantics( 'localhost/GitHub/rockartdatabase_v3/install_v4/index.php/Main_Page' );
+
 
 
 // # Extension: SemanticMediaWiki and RDFIO
@@ -184,8 +186,8 @@ wfLoadExtension( 'WikiEditor' );
 // $smwgOWLFullExport = true;
 
 
-// # Extension: YouTube
-// wfLoadExtension( 'YouTube' );
+# Extension: YouTube
+wfLoadExtension( 'YouTube' );
 
 // # Extension: iDisplay
 // require_once "$IP/extensions/iDisplay/iDisplay.php";
