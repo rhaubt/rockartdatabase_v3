@@ -174,10 +174,10 @@ wfLoadExtension( 'WikiEditor' );
 # ----------------------------------------------------------
 
 
-// # Extension: SemanticMediaWiki
-// require_once "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php";
-// // enableSemantics( 'example.org' );
-// enableSemantics( 'localhost/GitHub/rockartdatabase_v3/install_v4/index.php/Main_Page' );
+# Extension: SemanticMediaWiki
+require_once "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php";
+// enableSemantics( 'example.org' );
+enableSemantics( 'localhost/GitHub/rockartdatabase_v3/install_v4/index.php/Main_Page' );
 
 
 
