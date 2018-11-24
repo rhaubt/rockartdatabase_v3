@@ -139,6 +139,9 @@ wfLoadSkin( 'Tweeki' );
 # Extension: Capiunto to create Infobox
 wfLoadExtension( 'Capiunto' );
 
+# Extension: CSS Input
+wfLoadExtension( 'CSS' );
+
 # Extension: Parser Functions
 wfLoadExtension( 'ParserFunctions' );
 
