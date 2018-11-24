@@ -1,0 +1,29 @@
+{| align="right" border="1" cellpadding="1" cellspacing="1" style="width: 400px"
+| colspan="2" style="text-align: center; background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Name}}}'''
+|-
+| colspan="2" style="text-align:center" |[[File:{{{Picture}}}|400px]]
+|-
+|-
+| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Rock Art
+| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Rock Art Name}}}'''
+|-
+| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Location
+| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Location}}}'''
+|-
+| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Age
+| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Age}}}'''
+|-
+| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Size
+| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{​​Size}}}'''
+|-
+| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Criteria
+| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Criteria}}}'''
+|-
+</center>
+|}
+
+{{#css:
+  tbody {
+   text-align: center;
+  }
+}}
