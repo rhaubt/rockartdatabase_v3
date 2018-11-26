@@ -37,7 +37,7 @@ $wgResourceBasePath = $wgScriptPath;
 
 ## The URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
-$wgLogo = "$wgResourceBasePath/resources/assets/thumbLogo.png";
+$wgLogo = "$wgResourceBasePath/resources/assets/logo.png";
 
 ## UPO means: this is also a user preference option
 
@@ -209,7 +209,7 @@ $wgGroupPermissions['*']['createaccount'] = false;
 # When active, generates error:
 		// Fatal error: Uncaught Exception: C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall/extensions/Maps/extension.json does not exist! in C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\registration\ExtensionRegistry.php:107 Stack trace: #0 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\GlobalFunctions.php(50): ExtensionRegistry->queue('C:\\xampp\\htdocs...') #1 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\LocalSettings.php(197): wfLoadExtension('Maps') #2 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\Setup.php(94): require_once('C:\\xampp\\htdocs...') #3 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\WebStart.php(88): require_once('C:\\xampp\\htdocs...') #4 C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\index.php(39): require('C:\\xampp\\htdocs...') #5 {main} thrown in C:\xampp\htdocs\GitHub\rockartdatabase_v3\newInstall\includes\registration\ExtensionRegistry.php on line 107
 
-
+// Tweeki Configuration Settings
 $wgTweekiSkinHideLoggedin['footer-custom'] = false;
 $wgTweekiSkinHideAll['footer-places'] = true;
 $wgTweekiSkinHideAll['footer-icons'] = true;
