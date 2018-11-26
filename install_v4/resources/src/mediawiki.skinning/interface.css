@@ -81,3 +81,8 @@ textarea {
 span.subpages {
 	display: block;
 }
+
+
+.navbar-inner {
+background-color: #282828;
+}
