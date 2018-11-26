@@ -1,27 +1,4 @@
-<h1 style="text-align: center;">Chauvet Cave</h1><br>
-<h1 style="margin-right: 85%;">IMAGE</h1>
-
-<h2 style="">About</h2>
-<p style="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur mattis auctor. Nam lorem nisi, gravida placerat ipsum et, posuere fermentum risus. Praesent pulvinar aliquet quam vitae eleifend. Aenean eget libero posuere, hendrerit urna id, varius lorem. Donec sodales interdum magna, vitae luctus nisl fringilla scelerisque.</p>
-<br>
-
-----
-<br>
-<h2>The Story</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur mattis auctor. Nam lorem nisi, gravida placerat ipsum et, posuere fermentum risus. Praesent pulvinar aliquet quam vitae eleifend. Aenean eget libero posuere, hendrerit urna id, varius lorem. Donec sodales interdum magna, vitae luctus nisl fringilla scelerisque. Vestibulum sagittis vestibulum lectus vitae venenatis. Fusce commodo augue non velit eleifend congue. Nam faucibus semper orci id pretium. Nunc efficitur tortor nec augue egestas viverra. Ut semper dapibus nunc sit amet fringilla.</p>
-<br>
-
-----
-<h2>Gallery</h2>
-
-<br>
-
-----
-<h2>Map</h2>
-
 {| align="right" border="1" cellpadding="1" cellspacing="1" style="width: 400px"
-| colspan="2" style="text-align: center; background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Name}}}'''
-|-
 | colspan="2" style="text-align:center" |[[File:{{{Picture}}}|400px]]
 |-
 |-
@@ -42,3 +19,49 @@
 |-
 </center>
 |}
+
+<h2>About</h2>
+{{{About}}}
+<br>
+
+<h2>The Story</h2>
+{{{Story}}}
+<br>
+
+<h2>Paintings</h2>
+{{{Paintings}}}
+<br>
+
+<h2>Dating</h2>
+{{{Dating}}}
+<br>
+
+<h2>Preservation</h2>
+{{{Preservation}}}
+<br>
+
+
+
+----
+<h2>Gallery</h2>
+<gallery>
+Example.jpg
+Example.jpg
+Example.jpg
+Example.jpg
+Example.jpg
+Example.jpg
+Example.jpg
+Example.jpg
+</gallery>
+<br>
+
+----
+<h2>Map</h2>
+
+
+{{#css:
+  tbody {
+   text-align: center;
+  }
+}}
