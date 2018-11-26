@@ -1,6 +1,3 @@
-<h1 style="text-align: center;">Chauvet Cave</h1><br>
-<h1 style="margin-right: 85%;">IMAGE</h1>
-
 <h2 style="">About</h2>
 <p style="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur mattis auctor. Nam lorem nisi, gravida placerat ipsum et, posuere fermentum risus. Praesent pulvinar aliquet quam vitae eleifend. Aenean eget libero posuere, hendrerit urna id, varius lorem. Donec sodales interdum magna, vitae luctus nisl fringilla scelerisque.</p>
 <br>
@@ -18,6 +15,7 @@
 
 ----
 <h2>Map</h2>
+
 
 {| align="right" border="1" cellpadding="1" cellspacing="1" style="width: 400px"
 | colspan="2" style="text-align: center; background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Name}}}'''
