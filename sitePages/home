@@ -1,7 +1,7 @@
 {{#css:
   body {
     background: #f7f7f7;
-    color: white;
+    color: black;
     text-align: center;
     font-family: Roboto, Arial, sans-serif;
   }
@@ -11,19 +11,27 @@
   }
 
   .welcome {
-    padding: 100px 100px;
+    padding: 200px 100px;
+    margin-top: -120px;
+    margin-left: -320px;
+    width: 1520px;
     background-color: white;
     color: black;
   }
 
   .articles {
-    padding: 100px 0px;
+    padding: 150px 0px;
     background-color: #e3e3e3;
+    margin-left: -320px;
+    width: 1520px;
   }
 
   .who {
-    padding: 100px 100px;
+    padding: 150px 100px;
     background-color: #c8c8c8;
+    margin-left: -320px;
+    margin-bottom: -78px;
+    width: 1520px;
   }
 
   #title {
@@ -50,6 +58,7 @@
   }
 
   #text {
+    margin-top: 20px;
     font-size: 14px;
     line-height: 26px;
     color: black;
@@ -60,21 +69,24 @@
     margin-top: -10px;
   }
 
-  .column {
+  #column {
     float: left;
-    width: 25%;
-    padding: 10px;
+    width: 20%;
+    padding: 15px;
     margin: 0 10px;
     height: 200px;
     background-color: #ccc;
   }
 
-  .row {
-    margin-top: 50px;
-    margin-left: 100px;
+  #column-margin {
+    margin-left: 390px;
   }
 
-.row:after {
+  #row {
+    margin-top: 50px;
+  }
+
+  #row:after {
     content: "";
     display: table;
     clear: both;
@@ -86,7 +98,7 @@
 
     <h2 id=title>The Global Rock Art Database<h2>
 
-    <p id=sub-title>The world's first global rock-art database showcasing 250 projects, sites and other resources from the Americas, Europe, Africa, Asia and Oceania. From Sulaswesi's 39,900-year-old hand stencil to Indigenous Australian contact art. Your place for rock-art information.</p>
+    <p id=sub-title>The world's first global rock-art database showcasing 250 projects, sites and other resources from the Americas, Europe, Africa, Asia and Oceania.<br>From Sulaswesi's 39,900-year-old hand stencil to Indigenous Australian contact art. Your place for rock-art information.</p>
   </div>
 </div>
 
@@ -94,18 +106,20 @@
   <h3 id=header>Recent Articles</h3>
   <h4 id=sub>News on the latest Rock Art</h4>
 
-  <div class="row">
-    <div class="column">
-      <h4>Australian Cave</h4>
-      <p id=text>Nullam ut nulla ante. Sed interdum posuere augue in mollis. Quisque tincidunt feugiat finibus.</p>
-    </div>
-    <div class="column">
-      <h4>French Hill</h4>
-      <p id=text>Vestibulum velit risus, placerat quis convallis vel, ornare non justo.</p>
-    </div>
-    <div class="column">
-      <h4>Canadian Mine</h4>
-      <p id=text>Nulla pharetra est a lacus mattis, ut aliquam arcu varius. Curabitur rutrum semper nibh.</p>
+  <div id="row">
+    <div id="column-margin">
+      <div id="column">
+        <h4>Australian Cave</h4>
+        <p id=text>Nullam ut nulla ante. Sed interdum posuere augue in mollis. Quisque tincidunt feugiat finibus.</p>
+      </div>
+      <div id="column">
+        <h4>French Hill</h4>
+        <p id=text>Vestibulum velit risus, placerat quis convallis vel, ornare non justo.</p>
+      </div>
+      <div id="column">
+        <h4>Canadian Mine</h4>
+        <p id=text>Nulla pharetra est a lacus mattis, ut aliquam arcu varius. Curabitur rutrum semper nibh.</p>
+      </div>
     </div>
   </div>
 </div>
@@ -113,5 +127,5 @@
 <div class=who> <!-- What is RAD -->
   <h3 id=header>What is the Rock Art Database?</h3>
   <h4 id=sub>Learn more about this website and its capabilities.</h4>
-  <p id=text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat volutpat est. Vestibulum gravida elit massa, sed sollicitudin augue viverra nec. Vestibulum dapibus vitae orci ut egestas. In quis malesuada eros, id hendrerit tortor. Morbi ut viverra nunc. Sed faucibus congue tortor at ornare. Duis vehicula risus et consectetur commodo. Duis eu mollis augue. Donec quis iaculis erat, iaculis tincidunt ex. Aenean et dolor sit amet ligula tincidunt luctus.</p>
+  <p id=text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat volutpat est. Vestibulum gravida elit massa, sed sollicitudin augue viverra nec.<br>Vestibulum dapibus vitae orci ut egestas. In quis malesuada eros, id hendrerit tortor. Morbi ut viverra nunc. Sed faucibus congue tortor at ornare.<br>Duis vehicula risus et consectetur commodo. Duis eu mollis augue. Donec quis iaculis erat, iaculis tincidunt ex.br>Aenean et dolor sit amet ligula tincidunt luctus.</p>
 </div>
