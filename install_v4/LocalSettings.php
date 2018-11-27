@@ -213,3 +213,5 @@ $wgGroupPermissions['*']['createaccount'] = false;
 $wgTweekiSkinHideLoggedin['footer-custom'] = false;
 $wgTweekiSkinHideAll['footer-places'] = true;
 $wgTweekiSkinHideAll['footer-icons'] = true;
+$wgTweekiSkinHideAll['sidebar-left'] = true;
+$wgTweekiSkinHideAll['sidebar-right'] = true;
