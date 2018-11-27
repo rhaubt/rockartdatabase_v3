@@ -2,6 +2,8 @@
   body {
     background: #f7f7f7;
     color: white;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
   }
 
   h1 {
@@ -9,11 +11,9 @@
   }
 
   .welcome {
-    padding: 100px 200px;
+    padding: 100px 100px;
     background-color: white;
     color: black;
-    text-align: center;
-    font-family: Roboto, Arial, sans-serif;
   }
 
   .articles {
@@ -22,7 +22,7 @@
   }
 
   .who {
-    padding: 100px 0px;
+    padding: 100px 100px;
     background-color: #c8c8c8;
   }
 
@@ -53,8 +53,6 @@
     font-size: 14px;
     line-height: 26px;
     color: black;
-    text-align: center;
-    font-family: Roboto, Arial, sans-serif;
   }
 
   #page-header {
@@ -73,7 +71,7 @@
 
   .row {
     margin-top: 50px;
-    text-align: center;
+    margin-left: 100px;
   }
 
 .row:after {
@@ -99,15 +97,15 @@
   <div class="row">
     <div class="column">
       <h4>Australian Cave</h4>
-      <p id=text>Some text..</p>
+      <p id=text>Nullam ut nulla ante. Sed interdum posuere augue in mollis. Quisque tincidunt feugiat finibus.</p>
     </div>
     <div class="column">
       <h4>French Hill</h4>
-      <p id=text>Some text..</p>
+      <p id=text>Vestibulum velit risus, placerat quis convallis vel, ornare non justo.</p>
     </div>
     <div class="column">
       <h4>Canadian Mine</h4>
-      <p id=text>Some text..</p>
+      <p id=text>Nulla pharetra est a lacus mattis, ut aliquam arcu varius. Curabitur rutrum semper nibh.</p>
     </div>
   </div>
 </div>
@@ -115,5 +113,5 @@
 <div class=who> <!-- What is RAD -->
   <h3 id=header>What is the Rock Art Database?</h3>
   <h4 id=sub>Learn more about this website and its capabilities.</h4>
-  <p id=text>(explanation about what users can do on this site).</p>
+  <p id=text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat volutpat est. Vestibulum gravida elit massa, sed sollicitudin augue viverra nec. Vestibulum dapibus vitae orci ut egestas. In quis malesuada eros, id hendrerit tortor. Morbi ut viverra nunc. Sed faucibus congue tortor at ornare. Duis vehicula risus et consectetur commodo. Duis eu mollis augue. Donec quis iaculis erat, iaculis tincidunt ex. Aenean et dolor sit amet ligula tincidunt luctus.</p>
 </div>
