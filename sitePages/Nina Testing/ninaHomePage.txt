@@ -1,0 +1,159 @@
+
+{{#css:
+
+body{
+background-image: radial-gradient(circle,   #7b5d45, #694c3b, #282828);
+color: #b49c88;
+}
+
+.navbar-inner {
+background-color: #282828;
+}
+
+#content {
+background-color: #282828
+color: white;
+}
+
+.btn-primary {
+background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+border: none;
+background-color: #232526;
+}
+.btn-primary:hover { 
+background-position: right center; 
+background-color: none;
+}
+
+a:hover {
+background-color: none;
+color: none;
+text-styles: none;
+}
+
+  h1 {
+    display: none;
+  }
+
+h4 {
+text-align: center;
+}
+
+  .welcome {
+    padding: 100px 200px;
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+  }
+
+  .articles {
+    padding: 100px 0px;
+    background-color: #896a55;
+  }
+
+  .who {
+    padding: 100px 0px;
+    background-color: #282828;
+  }
+
+  #title {
+    font-size: 36px;
+  }
+
+  #sub-title {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #header {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: black;
+  }
+
+  #sub {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+  }
+
+  #text {
+    font-size: 14px;
+    line-height: 26px;
+    color: black;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+  }
+
+  #page-header {
+    background: #ededed;
+    margin-top: -10px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin: 0 10px;
+    height: 200px;
+    background-color: #ccc;
+  }
+
+#sidebar-right {
+margin: 0px 0px 0px 1000px;
+}
+
+
+
+  .row {
+display: flex; flex-flow: row wrap; justify-content: center;
+  }
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}}
+
+<div class=banner> <!-- Banner Image (not working) -->
+  <div class=welcome> <!-- Welcome Message -->
+
+    <h2 id=title>The Global Rock Art Database<h2>
+
+    <p id=sub-title>The world's first global rock-art database showcasing 250 projects, sites and other resources from the Americas, Europe, Africa, Asia and Oceania. From Sulaswesi's 39,900-year-old hand stencil to Indigenous Australian contact art. Your place for rock-art information.</p>
+  </div>
+</div>
+
+<div class=articles> <!-- Recent Articles -->
+  <h3 id=header>Recent Articles</h3>
+  <h4 id=sub>News on the latest Rock Art</h4>
+
+<div id="row-grid">
+  <div class="row">
+    <div class="column">
+      <h4>Australian Cave</h4>
+        <p id=text>Some text..</p>
+    </div>
+    <div class="column">
+      <h4>French Hill</h4>
+      <p id=text>Some text..</p>
+    </div>
+    <div class="column">
+      <h4>Canadian Mine</h4>
+      <p id=text>Some text..</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class=who> <!-- What is RAD -->
+  <h3 id=header>What is the Rock Art Database?</h3>
+  <h4 id=sub>Learn more about this website and its capabilities.</h4>
+  <p id=text>(explanation about what users can do on this site).</p>
+</div>

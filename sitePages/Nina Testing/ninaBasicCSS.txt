@@ -1,0 +1,33 @@
+{{#css:
+
+body{
+background-image: radial-gradient(circle,   #7b5d45, #694c3b, #282828);
+color: #b49c88;
+}
+
+.navbar-inner {
+background-color: #282828;
+}
+
+#content {
+backgroung-color: #282828
+color: white;
+}
+
+.btn-primary {
+background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+border: none;
+background-color: #232526;
+}
+.btn-primary:hover { 
+background-position: right center; 
+background-color: none;
+}
+
+a:hover {
+background-color: none;
+color: none;
+text-styles: none;
+}
+
+}}

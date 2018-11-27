@@ -1,0 +1,9 @@
+{{Profile
+|UserPic:NinaProfile.jpg
+|UserName=Nina
+|UserBio=Web Design, Graphic Design, Photography, Videography
+|UserWebsite=https://ninatanneberger.wordpress.com/
+|Profession=Web Designer
+|Education=SAE Institute
+|Website=https://ninatanneberger.wordpress.com/
+}}
