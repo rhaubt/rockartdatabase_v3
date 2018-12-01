@@ -1,0 +1,239 @@
+@import '../lib/wmui-base.less';
+
+/*
+	Anyone who changes the width of the sidebar should
+	update Kartographer.Dialog.DialogClass `SIDEBAR_WIDTH` accordingly
+*/
+@sidebarWidth: 320px;
+
+.mw-kartographer {
+	&-table {
+		display: table;
+		width: 100%;
+	}
+
+	&-row {
+		display: table-row;
+	}
+
+	&-cell {
+		display: table-cell;
+	}
+}
+
+/* Dialog footer */
+.mw-kartographer-mapDialog-foot {
+	/*
+		Anyone who changes the height of the footer should
+		update Kartographer.Dialog.DialogClass `FOOTER_HEIGHT` accordingly
+	*/
+	padding: 1em;
+	height: 4.5em;
+	background-color: @background-color-base;
+	border-top: @border-base;
+}
+
+.mw-kartographer-captionfoot {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 20px;
+	line-height: 31px;
+}
+
+.mw-kartographer-buttonfoot {
+	float: right;
+	margin-left: 1em;
+}
+
+/* Dialog Sidebar */
+.mw-kartographer-mapDialog-sidebar {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 4.5em;
+	z-index: 2;
+	border-left: @border-base;
+	/*
+		Anyone who changes the width of the sidebar should
+		update Kartographer.Dialog.DialogClass `SIDEBAR_WIDTH` accordingly
+	*/
+	width: @sidebarWidth + 1px; /* 320+1 so border is hidden on common 320px wide mobile devices */
+	box-sizing: border-box;
+	background-color: #fff;
+	padding: 1em 2em 1em;
+	overflow-y: scroll;
+
+	.mw-kartographer-mapDialog-closeButton {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		margin-right: 0;
+
+		.oo-ui-buttonElement-button {
+			border: 0;
+		}
+	}
+
+	.mw-kartographer-mapDialog-collapseButton {
+		position: absolute;
+		top: 10px;
+		right: 44px;
+		margin-right: 0;
+
+		.oo-ui-buttonElement-button {
+			border: 0;
+		}
+	}
+
+	/* For MobileFrontend */
+	.skin-minerva & h2 {
+		margin-bottom: 0.6em;
+	}
+}
+
+.mw-kartographer-mapdetails-table {
+	width: 100%;
+	border-collapse: collapse;
+
+	tr {
+		background-color: @wmui-color-base80;
+		text-align: center;
+	}
+
+	th {
+		text-align: left;
+	}
+
+	th,
+	td {
+		padding: 0.5em 1em;
+		font-size: 90%;
+	}
+
+	thead {
+		tr {
+			background-color: @wmui-color-base70;
+
+			th {
+				font-weight: bold;
+			}
+		}
+	}
+
+	tbody {
+		tr th:first-child {
+			width: 70%;
+			text-align: left;
+		}
+
+		tr:nth-child( even ) {
+			background-color: @wmui-color-base100;
+		}
+	}
+
+	.mw-kartographer-externalservices & {
+		tbody tr {
+			&.featured {
+				background-color: @wmui-color-yellow90;
+				border-bottom: 1px solid @wmui-color-yellow50;
+			}
+			th {
+				font-weight: normal;
+			}
+		}
+	}
+}
+
+.mw-kartographer-description,
+.mw-kartographer-mapdetails {
+	margin-bottom: 1.5em;
+
+	.geo {
+		white-space: nowrap;
+	}
+
+	&-title-label {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+
+	&-title-arrow {
+		float: right;
+
+		.oo-ui-buttonElement-button .oo-ui-iconElement-icon.oo-ui-icon-arrowNext {
+			height: 1em;
+		}
+	}
+
+	&-coordinates {
+		margin-top: 1em;
+
+		&-title {
+			font-weight: bold;
+		}
+
+		&-latlon {
+			display: block;
+			margin-top: 0.5em;
+		}
+	}
+}
+
+.mw-kartographer-filterservices {
+	margin-bottom: 1em;
+
+	&-title {
+		margin-bottom: 1em;
+		font-weight: bold;
+	}
+
+	&-list {
+		&-item {
+			padding: 0.5em;
+
+			&:hover {
+				background-color: #eaf3ff; // Accent90
+			}
+
+			.oo-ui-buttonElement.oo-ui-buttonWidget .oo-ui-buttonElement-button .oo-ui-labelElement-label {
+				font-weight: normal;
+			}
+
+			.mw-kartographer-cell:last-child {
+				width: 1em;
+			}
+
+			&-button .oo-ui-iconElement .oo-ui-buttonElement-button .oo-ui-iconElement-icon.oo-ui-icon-newWindow {
+				width: 1em;
+				min-width: 1em;
+			}
+		}
+	}
+}
+
+.kartographer-mapDialog-loading {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 4.5em;
+
+	/* @embed */
+	background-image: url( ./images/ajax-loader.gif );
+	background-position: center center;
+	background-size: 32px;
+	background-repeat: no-repeat;
+}
+
+.mw-kartographer-mapDialog-sidebar-opened {
+	.leaflet-right.leaflet-top .leaflet-bar.leaflet-control {
+		// Match the margin with the text inside the sidebar
+		margin-top: 1em;
+	}
+
+	.leaflet-right.leaflet-top,
+	.leaflet-right.leaflet-bottom {
+		right: @sidebarWidth;
+	}
+}

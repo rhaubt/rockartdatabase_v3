@@ -138,6 +138,9 @@ wfLoadExtension( 'Capiunto' );
 # Extension: CSS Input
 wfLoadExtension( 'CSS' );
 
+# Extension: Kartographer
+wfLoadExtension( 'Kartographer' );
+
 # Extension: Parser Functions
 wfLoadExtension( 'ParserFunctions' );
 
@@ -187,9 +190,6 @@ wfLoadExtension( 'WikiEditor' );
 
 # Extension: YouTube
 wfLoadExtension( 'YouTube' );
-
-// # Extension: iDisplay
-// require_once "$IP/extensions/iDisplay/iDisplay.php";
 
 
 # Disable anonymous editing
