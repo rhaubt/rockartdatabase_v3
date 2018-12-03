@@ -1,29 +1,88 @@
-{| align="right" border="1" cellpadding="1" cellspacing="1" style="width: 400px"
-| colspan="2" style="text-align: center; background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Name}}}'''
-|-
-| colspan="2" style="text-align:center" |[[File:{{{Picture}}}|400px]]
-|-
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Rock Art
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Rock Art Name}}}'''
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Location
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Location}}}'''
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Age
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Age}}}'''
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Size
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{​​Size}}}'''
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Criteria
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Criteria}}}'''
-|-
-</center>
-|}
+{{Infobox
+| name           = {{subst:PAGENAME}}
+| child          = {{{child|}}}
+| subbox         = {{{subbox|}}}
+| italic title   = {{{italic title|no}}}
+| bodystyle      = 
 
-{{#css:
-  tbody {
-   text-align: center;
-  }
+| titlestyle     = 
+| abovestyle     = 
+| subheaderstyle = 
+| title          = 
+| above          = 
+| subheader      = 
+
+|   imagestyle   = 
+| captionstyle   = 
+|   image        = 
+| caption        = 
+|   image2       = 
+| caption2       = 
+
+| headerstyle    = 
+|  labelstyle    = 
+|   datastyle    = 
+| header1  = 
+|  label1  = 
+|   data1  = 
+| header2  = 
+|  label2  = 
+|   data2  = 
+| header3  = 
+|  label3  = 
+|   data3  = 
+| header4  = 
+|  label4  = 
+|   data4  = 
+| header5  = 
+|  label5  = 
+|   data5  = 
+| header6  = 
+|  label6  = 
+|   data6  = 
+| header7  = 
+|  label7  = 
+|   data7  = 
+| header8  = 
+|  label8  = 
+|   data8  = 
+| header9  = 
+|  label9  = 
+|   data9  = 
+| header10 = 
+|  label10 = 
+|   data10 = 
+| header11 = 
+|  label11 = 
+|   data11 = 
+| header12 = 
+|  label12 = 
+|   data12 = 
+| header13 = 
+|  label13 = 
+|   data13 = 
+| header14 = 
+|  label14 = 
+|   data14 = 
+| header15 = 
+|  label15 = 
+|   data15 = 
+| header16 = 
+|  label16 = 
+|   data16 = 
+| header17 = 
+|  label17 = 
+|   data17 = 
+| header18 = 
+|  label18 = 
+|   data18 = 
+| header19 = 
+|  label19 = 
+|   data19 = 
+| header20 = 
+|  label20 = 
+|   data20 = 
+
+| belowstyle     = 
+| below          = 
 }}
