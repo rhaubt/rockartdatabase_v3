@@ -1,31 +1,33 @@
-<div style="background-color:#302f2d; height:400px; width:100%;"> User pic background 
-     <div style="float:right; margin:10px 10px 0px 0px;"> <btn>Talk</btn> <btn>Edit</btn>
+#ProfliePage 
+
+<div class=user-background> User pic background 
+     <div class=edit-button-to-right> <btn>Talk</btn> <btn>Edit</btn>
      </div>
 
-     <div style="display: flex; flex-flow: row wrap; justify-content: space-around; margin:5em 0em 0em 0em;">
-            [[Image:UserPic.png|frame]]
+     <div id=user-pic-flame>
+            [[Image:UserPic.png|200px]]
      </div>
 
-     <div style="background-color:gray; width:30%; margin:auto;> Name:{{{UserName}}}
+     <div class=user-name> Name:{{{UserName}}}
      </div>
 
-     <div style="background-color:white; width:40%; margin:auto;"> Bio:{{{UserBio}}}
+     <div class=user-info> Bio:{{{UserBio}}}
      </div>
 
-     <div style="background-color:white; width:40%; margin:auto;"> Website:{{{UserWebsite}}}
+     <div class=user-info"> Website:{{{UserWebsite}}}
      </div>
 </div>
 
-<div style="background-color:white; height:300px; width:100%;">
+<div class=recent-activity-box>
 
 
 <center><span style="color:#58a6cf">'''Recent activity'''</span> </center>
 
 
-     <div style="float:right; margin:10px 10px 0px 0px;"> <btn>Edit</btn>
+     <div class=edit-button-to-right> <btn>Edit</btn>
      </div>
 
-     <div style="display: flex; flex-flow: row wrap; justify-content: space-around;">
+     <div class=photo-gal>
 
           [[Image:Rock Art.png|frame|style="float:left;"| Rock Art one]]
 
@@ -35,63 +37,71 @@
 
      </div>
 
-<div style="float:right; margin:50px 370px 0px 0px;"><btn>1</btn><btn>2</btn><btn>3</btn><btn>></btn>
+<div class=page-button><btn>1</btn><btn>2</btn><btn>3</btn><btn>></btn>
 </div>
 
 </div>
 
-<div style="background-color: #956f42; height:410px; width:100%;">
+<div class=feature-content-box>
 
 
 <center>'''Feature Content'''</center>
 
 
-     <div style="float:right; margin:10px 10px 0px 0px;"> <btn>Edit</btn>
+     <div class=edit-button-to-right> <btn>Edit</btn>
      </div>
-     <div style="background-color:#d9a05b; height:280px; width:45%; margin: 2em 0em 0em 5em;">
-        <div style="height:50px; width:20%; margin: 2em 0em 0em 10em;">
+     <div id=feature-content-left-big-box>
+        <div id=feature-content-left-big-box-text>
             [[Image:RockArt1.png|frame]]
         </div>Rock art info:{{{RockOne}}}
      </div>
 
-     <div style="float:right; background-color:#d9a05b; height:130px; width:35%; margin:-20em 6em 0em 0em;">
-         <div style="height:50px; width:20%; margin: 0em 0em 0em 10em;>
+     <div id=feature-content-top-right-box>
+         <div id=feature-content-top-right-box-text>
              [[Image:RockArt2.png|frame]]
          </div>Rock art info:{{{RockTwo}}}
      </div>
 
-     <div style="float:right; background-color:#d9a05b; height:130px; width:35%; margin:-9.5em 6em 0em 0em;">
-         <div style="height:50px; width:20%; margin: 0em 0em 0em 10em;>
+     <div id=feature-content-bottom-right-box>
+         <div id=feature-content-bottom-right-box-text>
               [[Image:RockArt3.png|frame]]
          </div>Rock art info:{{{RockThree}}}
      </div>
 </div>
 
-<div style="background-color:#302f2d; height:400px; width:100%;">
+<div class=user-map-box>
 
 
 <center><span style="color:#f2dabd">'''User's Map'''</span></center>
 
 
-     <div style="background-color:green; margin:auto; height:200px; width:50%;">
+     <mapframe text="{{{Address Name}}}" align="center" width=750 height=350 zoom=17 latitude=-27.476800 longitude=153.005300>
 
-     </div>
+ {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [153.005300, -27.476800] },
+  "properties": {
+    "title": "[[Main Page|FeelsGoodMan]]",
+    "description": "[[File:UserPic.png|200px]]",
+    "marker-symbol": "college",
+    "marker-size": "large",
+    "marker-color": "0050d0"
+  }
+}
+</mapframe>
 
 </div>
 
+#ProfliePageV2
 
-
-
-<!----------------------------V2  --------------------------->
-
-<div style="border:thin solid Black; background:#302f2d; height:350px; width:100%; ">
-     <div style="float:right; margin:10px 10px 0px 0px;"> <btn>Edit</btn>
+<div class=user-ontology-box>
+     <div class=edit-button-to-right> <btn>Edit</btn>
      </div>
 <center><span style="color:yellow">Place the Ontology of the user or background pic</span></center>
 <br />
 <br />
 </div>
-<div style="background-color:white; width:100%; height:350px;">
+<div class=user-follower-info-box>
 {| border="1" cellpadding="5" cellspacing="0" align="right"
 |+
 |-
@@ -134,15 +144,15 @@
 
 ----
 
-<div style="width:100%; height:300px;">
+<div class=recent-activity-box>
 
 
 <center><span style="color:#58a6cf">'''Recent activity'''</span> </center>
-     <div style="float:right; margin:10px 10px 0px 0px;"> <btn>Edit</btn>
+     <div class=edit-button-to-right> <btn>Edit</btn>
      </div>
 
 
-     <div style="display: flex; flex-flow: row wrap; justify-content: space-around;">
+     <div class=photo-gal>
 
           [[Image:Rock Art.png|frame|style="float:left;"| Rock Art one]]
 
@@ -152,21 +162,32 @@
 
      </div>
 
-<div style="float:right; margin:50px 370px 0px 0px;"><btn>1</btn><btn>2</btn><btn>3</btn><btn>></btn>
+<div class=page-button><btn>1</btn><btn>2</btn><btn>3</btn><btn>></btn>
 </div>
 
 
 </div>
 
 ----
-<div style="background-color:#302f2d; height:400px; width:100%;">
+<div class=user-map-box>
 
 
 <center><span style="color:#f2dabd">'''User's Map'''</span></center>
 
 
-     <div style="background-color:green; margin:auto; height:200px; width:50%;">
+     <mapframe text="[[ThePage]]" align="center" width=750 height=350 zoom=17 latitude=-27.476800 longitude=153.005300>
 
-     </div>
+ {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [153.005300, -27.476800] },
+  "properties": {
+    "title": "[[wikipedia:Exploratorium|Exploratorium]]",
+    "description": "[[File:Giant_Mirror_at_the_Exploratorium.jpeg|200px]]",
+    "marker-symbol": "college",
+    "marker-size": "large",
+    "marker-color": "0050d0"
+  }
+}
+</mapframe>
 
 </div>
