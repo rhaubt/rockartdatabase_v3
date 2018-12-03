@@ -1,67 +1,67 @@
-{| align="right" border="1" cellpadding="1" cellspacing="1" style="width: 400px"
-| colspan="2" style="text-align:center" |[[File:{{{Picture}}}|400px]]
-|-
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Rock Art
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Rock Art Name}}}'''
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Location
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Location}}}'''
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Age
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Age}}}'''
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Size
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{​​Size}}}'''
-|-
-| style="background-color: {{{Fon2}}}; color: {{{Fon1}}}"|Criteria
-| style="background-color: {{{Fon1}}}; color: {{{Fon2}}}"|'''{{{Criteria}}}'''
-|-
-</center>
-|}
-
-<h2>About</h2>
-{{{About}}}
-<br>
-
-<h2>The Story</h2>
-{{{Story}}}
-<br>
-
-<h2>Paintings</h2>
-{{{Paintings}}}
-<br>
-
-<h2>Dating</h2>
-{{{Dating}}}
-<br>
-
-<h2>Preservation</h2>
-{{{Preservation}}}
-<br>
-
-
-
-----
-<h2>Gallery</h2>
-<gallery>
-Example.jpg
-Example.jpg
-Example.jpg
-Example.jpg
-Example.jpg
-Example.jpg
-Example.jpg
-Example.jpg
-</gallery>
-<br>
-
-----
-<h2>Map</h2>
-
-
+<div class="html">
+<h2 class="title">{{{Title}}}</h2>
+<div class="gallery">{{{Gallery}}}</div>
+<div class="story">
+    <h6 class="header">The Story</h1>
+    <p class="st_text">
+    {{{Story}}}
+    </p>
+</div>
+<div class="map"> 
+<mapframe text="{{{Location}}}" padding-left=100 width=500 height=500 zoom=13 latitude=37.8013 longitude=-122.3988 />
+</div>
+</div>
 {{#css:
-  tbody {
-   text-align: center;
-  }
+.title{
+    padding: 300px 100px;
+    margin-top: -120px;
+    margin-left: -320px;
+    width: 1520px;
+    background-color: white;
+    color: black;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+.gallery {
+    padding: 300px 100px;
+    margin-left: -320px;
+    width: 1520px;
+    background-color: #e3e3e3;
+    color: white;
+    font-size: 36px
+}
+
+.header {
+    font-size: 36px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.story {
+    padding: 10px;
+    margin-left: -320px;
+    background-color: #ffffff;
+    color: black;
+    margin-top: 1px;
+    margin-right: 49%;
+}
+
+.st_text {
+    text-align: left;
+}
+
+.html {
+text-align: center;
+}
+
+.thumbinner {
+    padding: 3px;
+    background-color: #f9f9f9;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: -137px;
+}
 }}
