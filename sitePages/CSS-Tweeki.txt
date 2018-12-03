@@ -137,11 +137,6 @@ h1 {
           margin:250px 0px 0px 10px;
      }
 
-.edit-button-to-right{
-          float:right;
-          margin:10px 10px 0px 0px;
-     }
-
 .about-us-box{
           background-color:white;
           height:350px;
@@ -200,23 +195,6 @@ h1 {
          height:50px;
          width:20%;
          margin: 0em 0em 0em 10em;
-     }
-
-.recent-activity-box{
-          background-color:white;
-          height:300px; 
-          width:100%;
-     }
-
-.page-button{
-          float:right;
-          margin:50px 370px 0px 0px;
-     }
-
-.photo-gal{
-          display: flex;
-          flex-flow: row wrap;
-          justify-content: space-around;
      }
 
 .company-map-box{
