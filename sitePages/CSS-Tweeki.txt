@@ -1,0 +1,226 @@
+/* CSS placed here will affect users of the Tweeki skin */
+
+/* Tweeki CSS */
+#mw-head {
+  background: #282828; 
+}
+
+#page-header {
+  background: #999; 
+}
+
+.navbar-default .navbar-brand {color: #ffffff;}
+
+.search-query, .form-control {background-color: #f7f7f7;}
+
+.navbar-default .navbar-nav>li>a {color: #ffffff;}
+
+#footer {
+  background: #555; 
+  font-size: 12px; 
+}
+
+/* Home page CSS */
+body {
+  background: #f7f7f7;
+  color: black;
+  text-align: center;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+h1 {
+  display: none;
+}
+
+.welcome {
+  padding: 200px 100px;
+  margin-top: -120px;
+  margin-left: -320px;
+  width: 1520px;
+  background-color: white;
+  color: black;
+}
+
+.articles {
+  padding: 150px 0px;
+  background-color: #e3e3e3;
+  margin-left: -320px;
+  width: 1520px;
+}
+
+.who {
+  padding: 150px 100px;
+  background-color: #c8c8c8;
+  margin-left: -320px;
+  margin-bottom: -78px;
+  width: 1520px;
+}
+
+#title {
+  font-size: 36px;
+}
+
+#sub-title {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#header {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: black;
+}
+
+#sub {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: grey;
+}
+
+#text {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 26px;
+  color: black;
+}
+
+#page-header {
+  background: #ededed;
+  margin-top: -10px;
+}
+
+#column {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin: 0 10px;
+  height: 200px;
+  background-color: #ccc;
+}
+
+#column-margin {
+  margin-left: 390px;
+}
+
+#row {
+  margin-top: 50px;
+}
+
+#row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Company template CSS */
+.company-background-box{
+          height:400px;
+          width:100%;
+          background:#302f2d;
+     }
+
+.company-icon{
+          height:150px;
+          width:150px;
+          float:left;
+          background:black;
+          margin:210px 0px 0px 50px;
+     }
+
+.company-name{
+          height:75px;
+          width:30%;
+          background:blue;
+          float:left;
+          margin:250px 0px 0px 10px;
+     }
+
+.edit-button-to-right{
+          float:right;
+          margin:10px 10px 0px 0px;
+     }
+
+.about-us-box{
+          background-color:white;
+          height:350px;
+          width:100%;
+     }
+
+.about-us-info-box{
+          border:1px solid #58a6cf;
+          width:75%;
+          height:250px;
+          margin:0px 0px 0px 115px;
+     }
+
+.feature-project-box{
+         background-color: #956f42;
+         height:410px;
+         width:100%;
+     }
+
+#feature-project-left-big-box{
+          background-color:#d9a05b;
+          height:280px;
+          width:45%;
+          margin: 2em 0em 0em 5em;
+     }
+
+#feature-project-left-big-box-text{
+         height:50px;
+         width:20%;
+         margin: 2em 0em 0em 10em;
+     }
+
+#feature-project-top-right-box{
+         float:right;
+         background-color:#d9a05b;
+         height:130px;
+         width:35%;
+         margin:-20em 6em 0em 0em;
+     }
+
+#feature-project-top-right-box-text{
+         height:50px;
+         width:20%;
+         margin: 0em 0em 0em 10em;
+     }
+
+#feature-project-bottom-right-box{
+         float:right;
+         background-color:#d9a05b;
+         height:130px;
+         width:35%;
+         margin:-9.5em 6em 0em 0em;
+     }
+
+#feature-project-bottom-right-box-text{
+         height:50px;
+         width:20%;
+         margin: 0em 0em 0em 10em;
+     }
+
+.recent-activity-box{
+          background-color:white;
+          height:300px; 
+          width:100%;
+     }
+
+.page-button{
+          float:right;
+          margin:50px 370px 0px 0px;
+     }
+
+.photo-gal{
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-around;
+     }
+
+.company-map-box{
+          background-color:#302f2d;
+          height:500px;
+          width:100%;
+     }
