@@ -124,6 +124,11 @@ h1 {
 /* How to page CSS */
 .subheader {
   text-align: left;
+}
+
+.how_text {
+  text-align: left;
+}
 
 /* Company template CSS */
 .company-background-box{
@@ -229,7 +234,7 @@ h1 {
 
 #user-pic-flame{
           display: flex;
-          flex-flow: center;
+          flex-flow: row wrap;
           justify-content: space-around;
           margin:5em 0em 0em 0em;
      }
@@ -242,13 +247,13 @@ h1 {
 
 .user-info{
           background-color:white;
-          width:70%;
+          width:40%;
           margin:auto;
      }
 
 .recent-activity-box{
           background-color:white;
-          height:350px; 
+          height:300px; 
           width:100%;
      }
      
@@ -257,6 +262,12 @@ h1 {
           flex-flow: row wrap;
           justify-content: space-around;
      }    
+
+.page-button{
+          float:right;
+          margin:50px 370px 0px 0px;
+     }
+
 
 .feature-content-box{
           background-color: #956f42;
@@ -338,44 +349,66 @@ h1 {
     margin-bottom: 0px;
 }
 
-.gallery {
-    padding: 300px 100px;
-    margin-left: -320px;
-    width: 1520px;
-    background-color: #e3e3e3;
-    color: white;
-    font-size: 36px
-}
-
 .header {
     font-size: 36px;
     padding: 10px;
     background-color: #ffffff;
     color: black;
+    margin-top: 1px;
 }
 
 .story {
-    padding: 10px;
     margin-left: -320px;
+    width: 1520px;
     background-color: #ffffff;
-    color: black;
-    margin-top: 1px;
-    margin-right: 49%;
 }
 
 .st_text {
     text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .html {
 text-align: center;
 }
+.features {
+    margin-left: -320px;
+    width: 1520px;
+    background-color: #ffffff;
+}
 
-.thumbinner {
-    padding: 3px;
-    background-color: #f9f9f9;
-    font-size: 94%;
-    text-align: center;
-    overflow: hidden;
-    margin-top: -137px;
+.feathead {
+    font-size: 36px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    margin-top: 1px;
+}
+
+.fe_text {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 2px;
+}
+
+.paintings {
+    margin-left: -320px;
+    width: 1520px;
+    background-color: #ffffff;
+}
+
+.painthead {
+    font-size: 36px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    margin-top: -10px;
+}
+
+.pa_text {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
 }
