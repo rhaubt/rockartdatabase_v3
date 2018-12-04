@@ -34,9 +34,9 @@ h1 {
 
 .welcome {
   padding: 200px 100px;
-  margin-top: -120px;
+  margin-top: -40px;
   margin-left: -320px;
-  width: 1520px;
+  width: 1524px;
   background-color: white;
   color: black;
 }
@@ -45,15 +45,22 @@ h1 {
   padding: 150px 0px;
   background-color: #e3e3e3;
   margin-left: -320px;
-  width: 1520px;
+  width: 1524px;
 }
 
 .who {
   padding: 150px 100px;
   background-color: #c8c8c8;
   margin-left: -320px;
+  width: 1524px;
+}
+
+.how {
+  padding: 150px 100px;
+  background-color: #c0c0c0;
+  margin-left: -320px;
   margin-bottom: -78px;
-  width: 1520px;
+  width: 1524px;
 }
 
 #title {
@@ -113,6 +120,10 @@ h1 {
   display: table;
   clear: both;
 }
+
+/* How to page CSS */
+.subheader {
+  text-align: left;
 
 /* Company template CSS */
 .company-background-box{
