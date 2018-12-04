@@ -10,7 +10,7 @@
 <p>To update an existing page navigate to it and select 'Views' near the top right of the page and then click Edit and you'll be redirected to the edit page.</p>
 
 <h4 class=subheader>Using a page template</h4>
-<p>The Rock Art Database have templates for Rock Art (Display), Companies / Universities (Company) and User pages (Profile). To call these to a new page simply add `{{Display}}` or `{{Company}}` or `{{Profile}}` at the top of the page (inside editor). To edit sections of the template type, identify what it is called (On the Display page for example you'll see {{Title}} or {{Story}) to edit the Title you'd type `|Title=My New Page` in the editor.</p>
+<p>The Rock Art Database have templates for Rock Art (Display), Companies / Universities (Company) and User pages (Profile). To call these to a new page simply add `{{Display}}` or `{{Company}}` or `{{Profile}}` at the top of the page (inside editor). To edit sections of the template type, identify what it is called (On the Display page for example you'll see {{{Title}}} or {{{Story}}) to edit the Title you'd type `|Title=My New Page|` in the editor.</p>
 
 <h4 class=subheader>Using markdown</h4>
 <p>Adding an image: `[[File:filename.extension|options|captions]]`</p>
