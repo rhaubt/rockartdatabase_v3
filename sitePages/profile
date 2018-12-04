@@ -1,11 +1,10 @@
 #ProfliePage 
-
 <div class=user-background> User pic background 
      <div class=edit-button-to-right> <btn>Talk</btn> <btn>Edit</btn>
      </div>
 
      <div id=user-pic-flame>
-            [[Image:UserPic.png|200px]]
+            [[Image:{{{UserPhoto}}}| center |200px]]
      </div>
 
      <div class=user-name> Name:{{{UserName}}}
@@ -14,7 +13,7 @@
      <div class=user-info> Bio:{{{UserBio}}}
      </div>
 
-     <div class=user-info"> Website:{{{UserWebsite}}}
+     <div class=user-info> Website:{{{UserWebsite}}}
      </div>
 </div>
 
@@ -29,16 +28,13 @@
 
      <div class=photo-gal>
 
-          [[Image:Rock Art.png|frame|style="float:left;"| Rock Art one]]
+          [[Image:{{{RockArtDisplay1}}}|frame|style="float:left;"| {{{RockOne}}}]]
 
-          [[Image:Rock Art.png|frame|Rock Art two]]
+          [[Image:{{{RockArtDisplay2}}}|frame|{{{RockTwo}}}]]
 
-          [[Image:Rock Art.png|frame|Rock Art three]]
+          [[Image:{{{RockArtDisplay3}}}|frame|{{{RockThree}}}]]
 
      </div>
-
-<div class=page-button><btn>1</btn><btn>2</btn><btn>3</btn><btn>></btn>
-</div>
 
 </div>
 
@@ -52,20 +48,20 @@
      </div>
      <div id=feature-content-left-big-box>
         <div id=feature-content-left-big-box-text>
-            [[Image:RockArt1.png|frame]]
-        </div>Rock art info:{{{RockOne}}}
+            [[Image:{{{RockArtDisplay1}}}|left|235px]]
+        </div>{{{RockOne}}}
      </div>
 
      <div id=feature-content-top-right-box>
          <div id=feature-content-top-right-box-text>
-             [[Image:RockArt2.png|frame]]
-         </div>Rock art info:{{{RockTwo}}}
+             [[Image:{{{RockArtDisplay2}}}|right|100px]]
+         </div>{{{RockTwo}}}
      </div>
 
      <div id=feature-content-bottom-right-box>
          <div id=feature-content-bottom-right-box-text>
-              [[Image:RockArt3.png|frame]]
-         </div>Rock art info:{{{RockThree}}}
+              [[Image:{{{RockArtDisplay3}}}|right|100px]]
+         </div>{{{RockThree}}}
      </div>
 </div>
 
