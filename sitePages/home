@@ -1,10 +1,7 @@
-<div class=banner> <!-- Banner Image (not working) -->
-  <div class=welcome> <!-- Welcome Message -->
+<div class=welcome> <!-- Welcome Message -->
+  <h2 id=title>The Global Rock Art Database<h2>
 
-    <h2 id=title>The Global Rock Art Database<h2>
-
-    <p id=sub-title>The world's first global rock-art database showcasing 250 projects, sites and other resources from the Americas, Europe, Africa, Asia and Oceania.<br>From Sulaswesi's 39,900-year-old hand stencil to Indigenous Australian contact art. Your place for rock-art information.</p>
-  </div>
+  <p id=sub-title>The world's first global rock-art database showcasing 250 projects, sites and other resources from the Americas, Europe, Africa, Asia and Oceania.<br>From Sulaswesi's 39,900-year-old hand stencil to Indigenous Australian contact art. Your place for rock-art information.</p>
 </div>
 
 <div class=articles> <!-- Recent Articles -->
@@ -13,24 +10,31 @@
 
   <div id="row">
     <div id="column-margin">
-      <div id="column">
-        <h4>Australian Cave</h4>
-        <p id=text>Nullam ut nulla ante. Sed interdum posuere augue in mollis. Quisque tincidunt feugiat finibus.</p>
-      </div>
-      <div id="column">
-        <h4>French Hill</h4>
-        <p id=text>Vestibulum velit risus, placerat quis convallis vel, ornare non justo.</p>
-      </div>
-      <div id="column">
-        <h4>Canadian Mine</h4>
-        <p id=text>Nulla pharetra est a lacus mattis, ut aliquam arcu varius. Curabitur rutrum semper nibh.</p>
-      </div>
+    <div id="column">
+      <h4>Australian Cave</h4>
+      <p id=text>Nullam ut nulla ante. Sed interdum posuere augue in mollis. Quisque tincidunt feugiat finibus.</p>
+    </div>
+    <div id="column">
+      <h4>French Hill</h4>
+      <p id=text>Vestibulum velit risus, placerat quis convallis vel, ornare non justo.</p>
+    </div>
+    <div id="column">
+      <h4>Canadian Mine</h4>
+      <p id=text>Nulla pharetra est a lacus mattis, ut aliquam arcu varius. Curabitur rutrum semper nibh.</p>
+    </div>
     </div>
   </div>
 </div>
 
 <div class=who> <!-- What is RAD -->
-  <h3 id=header>What is the Rock Art Database?</h3>
+  <h3 id=header>What is the Rock Art Database</h3>
   <h4 id=sub>Learn more about this website and its capabilities.</h4>
   <p id=text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat volutpat est. Vestibulum gravida elit massa, sed sollicitudin augue viverra nec.<br>Vestibulum dapibus vitae orci ut egestas. In quis malesuada eros, id hendrerit tortor. Morbi ut viverra nunc. Sed faucibus congue tortor at ornare.<br>Duis vehicula risus et consectetur commodo. Duis eu mollis augue. Donec quis iaculis erat, iaculis tincidunt ex.br>Aenean et dolor sit amet ligula tincidunt luctus.</p>
+</div>
+
+<div class=how> <!-- How to use RAD -->
+  <h3 id=header>How to use the Rock Art Database</h3>
+  <h4 id=sub>Learn how to use and contribute to the website.</h4>
+  <p id=text>To learn how to create, update and edit pages along with using markdown and the Rock Art Database templates 
+visit: [[How_to_use_RAD|How to use the Rock Art Database]].</p>
 </div>
