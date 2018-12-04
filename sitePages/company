@@ -1,7 +1,7 @@
 <div class=company-background-box>
-      <div class=company-icon> <span style="color:yellow;">Company icon </span> </div>
+      <div class=company-icon> <span style="color:yellow;">[[Image:{{{CompanyIcon}}}|center|150px]] </span> </div>
      
-      <div class=company-name> <span style="color:yellow;">Company name </span></div>
+      <div class=company-name> <span style="color:yellow;">{{{CompanyName}}} </span></div>
 
      <div class=edit-button-to-right> <btn>Edit</btn>
      </div>
@@ -12,15 +12,13 @@
 <div class=about-us-box><center> '''About Us'''</center>
 <br>
      <div class=about-us-info-box>
-          <div class=edit-button-to-right> <btn>Edit</btn>
-          </div>
           Mission:{{{CompanyMission}}}
 
           Website:{{{Website}}}
           LinkedIn:{{{LinkedIn}}}
           Twitter:{{{Twitter}}}
           Facebook:{{{Facebook}}}
-          Admin:{{{CompanyPageAdmin}}}
+          Admin:[[{{{CompanyPageAdminLink}}}|{{{CompanyPageAdmin}}}]]
      </div>
 
 
@@ -41,20 +39,20 @@
      </div>
      <div id=feature-project-left-big-box>
         <div id=feature-project-left-big-box-text>
-            [[Image:RockArt1.png|frame]]
-        </div>Rock art info:{{{RockOne}}}
+            [[Image:{{{RockArtDisplay1}}}|left|235px]]
+        </div>{{{RockOne}}}
      </div>
 
      <div id=feature-project-top-right-box>
          <div id=feature-project-top-right-box-text>
-             [[Image:RockArt2.png|frame]]
-         </div>Rock art info:{{{RockTwo}}}
+             [[Image:{{{RockArtDisplay2}}}|right|100px]]
+         </div>{{{RockTwo}}}
      </div>
 
      <div id=feature-project-bottom-right-box>
          <div id=feature-project-bottom-right-box-text>
-              [[Image:RockArt3.png|frame]]
-         </div>Rock art info:{{{RockThree}}}
+              [[Image:{{{RockArtDisplay3}}}|right|100px]]
+         </div>{{{RockThree}}}
      </div>
 
 </div>
@@ -71,16 +69,13 @@
 
      <div class=photo-gal>
 
-          [[Image:Rock Art.png|frame|style="float:left;"| Rock Art one]]
+          [[Image:{{{RockArtDisplay1}}}|frame|style="float:left;"| Rock Art one]]
 
-          [[Image:Rock Art.png|frame|Rock Art two]]
+          [[Image:{{{RockArtDisplay2}}}|frame|Rock Art two]]
 
-          [[Image:Rock Art.png|frame|Rock Art three]]
+          [[Image:{{{RockArtDisplay3}}}|frame|Rock Art three]]
 
      </div>
-
-<div class=page-button><btn>1</btn><btn>2</btn><btn>3</btn><btn>></btn>
-</div>
 
 </div>
 
