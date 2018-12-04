@@ -7,10 +7,10 @@
     {{{Story}}}
     </p>
 </div>
-<div class="map"> 
-<mapframe text="{{{Location}}}" padding-left=100 width=500 height=500 zoom=13 latitude=37.8013 longitude=-122.3988 />
 </div>
-</div>
+<mapframe text="{{{Address Name}}}" align="center" width=750 height=350 zoom=17 latitude=-27.476800 longitude=153.005300/>
+
+
 {{#css:
 .title{
     padding: 300px 100px;
@@ -37,19 +37,19 @@
     padding: 10px;
     background-color: #ffffff;
     color: black;
+    margin-top: 1px;
 }
 
 .story {
-    padding: 10px;
     margin-left: -320px;
+    width: 1520px;
     background-color: #ffffff;
-    color: black;
-    margin-top: 1px;
-    margin-right: 49%;
 }
 
 .st_text {
     text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .html {
