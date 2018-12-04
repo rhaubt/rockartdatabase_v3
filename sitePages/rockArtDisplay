@@ -1,6 +1,16 @@
 <div class="html">
 <h2 class="title">{{{Title}}}</h2>
-<div class="gallery">{{{Gallery}}}</div>
+<gallery mode="slideshow" align="center">
+
+File:Example.jpg
+
+File:Example.jpg
+
+File:Example.jpg
+
+File:Example.jpg
+
+</gallery>
 <div class="story">
     <h6 class="header">The Story</h1>
     <p class="st_text">
@@ -10,7 +20,50 @@
 </div>
 <mapframe text="{{{Address Name}}}" align="center" width=750 height=350 zoom=17 latitude=-27.476800 longitude=153.005300/>
 
+<div class="features">
+    <h6 class="feathead">Features</h1>
+    <p class="fe_text">
+    {{{Features}}}
+    </p>
+</div>
 
+<div class="paintings">
+    <h6 class="painthead">Paintings</h1>
+    <p class="pa_text">
+    {{{Paintings}}}
+    </p>
+</div>
+
+<!-- Delete this if not needed -->
+<div class="flex-row row">
+<div class="col-xs-12 col-md-6 col-lg-4">
+<div class="panel panel-default">
+<div class="panel-heading">{{{Title 1}}}</div>
+<div class="panel-body">[[File:picture.png|class=img-responsive| link=]]
+</div>
+<div class="panel-footer">{{{Footer text 1}}}</div>
+</div><!-- End of pan -->
+</div><!-- end of col 1-->
+
+<div class="col-xs-12 col-md-6 col-lg-4">
+<div class="panel panel-default">
+<div class="panel-heading">{{{Title 2}}}</div>
+<div class="panel-body">[[File:picture.png|class=img-responsive| link=]]  
+</div>
+<div class="panel-footer">{{{Footer text 2}}}</div>
+</div><!-- End of pan -->
+</div><!-- End of col 2-->
+
+<div class="col-xs-12 col-md-6 col-lg-4">
+<div class="panel panel-default">
+<div class="panel-heading">{{{Title 3}}}</div>
+<div class="panel-body">[[File:picture.png|class=img-responsive| link=]] 
+</div>
+<div class="panel-footer">{{{Footer text 3}}}</div>
+</div><!-- End of pan -->
+</div><!-- End of col 3-->
+
+</div><!-- End of row 1-->
 {{#css:
 .title{
     padding: 300px 100px;
@@ -21,15 +74,6 @@
     color: black;
     font-size: 36px;
     margin-bottom: 0px;
-}
-
-.gallery {
-    padding: 300px 100px;
-    margin-left: -320px;
-    width: 1520px;
-    background-color: #e3e3e3;
-    color: white;
-    font-size: 36px
 }
 
 .header {
@@ -55,13 +99,45 @@
 .html {
 text-align: center;
 }
-
-.thumbinner {
-    padding: 3px;
-    background-color: #f9f9f9;
-    font-size: 94%;
-    text-align: center;
-    overflow: hidden;
-    margin-top: -137px;
+.features {
+    margin-left: -320px;
+    width: 1520px;
+    background-color: #ffffff;
 }
+
+.feathead {
+    font-size: 36px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    margin-top: 1px;
+}
+
+.fe_text {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 2px;
+}
+
+.paintings {
+    margin-left: -320px;
+    width: 1520px;
+    background-color: #ffffff;
+}
+
+.painthead {
+    font-size: 36px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    margin-top: -10px;
+}
+
+.pa_text {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 }}
