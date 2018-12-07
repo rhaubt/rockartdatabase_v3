@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Сербијана",
+			"Milicevic01",
+			"Obsuser",
+			"Acamicamacaraca"
+		]
+	},
+	"kartographer-attribution": "[https://wikimediafoundation.org/wiki/Maps_Terms_of_Use Викимедијине мапе] | Подаци мапе © [https://www.openstreetmap.org/copyright Сарадници OpenStreetMap]",
+	"kartographer-broken-category": "Странице са поквареним мапама",
+	"kartographer-error-title": "Наслов „$1” није валидна страница података мапе",
+	"kartographer-tracking-category": "Странице са мапама",
+	"kartographer-linktype-map": "Мапа",
+	"kartographer-linktype-satellite": "Сателит",
+	"kartographer-link-wikiminiatlas": "Вики Мини атлас",
+	"leafletdraw-draw-toolbar-actions-text": "Откажи",
+	"leafletdraw-edit-toolbar-actions-cancel-text": "Откажи",
+	"mapbox-control-zoomin-title": "Увећај",
+	"mapbox-control-zoomout-title": "Умањи",
+	"kartographer-fullscreen-close": "Затвори",
+	"kartographer-fullscreen-text": "Прикажи преко целог екрана",
+	"visualeditor-mwmapsdialog-position-lat": "Ширина",
+	"visualeditor-mwmapsdialog-position-lon": "Дужина",
+	"visualeditor-mwmapsdialog-position-zoom": "Увећај",
+	"visualeditor-mwmapsdialog-size": "Величина",
+	"visualeditor-mwmapsdialog-title": "Карта",
+	"visualeditor-mwmapscontextitem-nosupport": "Ова мапа садржи динамичке функције и за сада се може уређивати само у изворничком моду.",
+	"visualeditor-mwmapscontextitem-title": "Мапа"
+}
