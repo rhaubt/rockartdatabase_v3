@@ -39,21 +39,13 @@ The contents include:
 • Logo Design	
 
 
-The documentation folder needs to be organised into folders for mockups and wireframes for our drafting purpose.
-
-Additional content for research, images, processes and other working files can be found in a Google drive. 
-
-https://drive.google.com/open?id=1oudmShcZsidrWBK8lpgfTTDxS7anyUxE
-
-This link is also appended to a sidebar on the Wiki page.
+The documentation folder is organised into folders for mockups and wireframes for our drafting purpose.
 
 _________________________________________
 
 CONTRIBUTORS
 
 Jackson Gartner – Front End
-
-Gleem Geroche – Front End
 
 Gary Lam Ka – Front End
 
@@ -66,5 +58,7 @@ Robert Haubt - Client
 _________________________________________
 
 LICENSE
+
+Creative Commons.
 
 _________________________________________
